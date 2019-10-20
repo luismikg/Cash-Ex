@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_date">Fecha de inicio</string>
+    <string name="end_date">Fecha final</string>
+    <string name="welcome">Bienvenido a Cash Ex</string>
+    <string name="sub_title">Estoy aquí para ayudarte a cambiar dinero</string>
+    <string name="exchange_rate">Tipo de cambio:</string>
+    <string name="fromCash">De:</string>
+    <string name="toCash">A:</string>
+    <string name="USD">USD</string>
+    <string name="EUR">EUR</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="statistics">ESTADISTICAS</string>
+    <string name="average_rate">TASA PROMEDIO</string>
+    <string name="lowest_rate">"La tasa más baja: "</string>
+    <string name="biggest_rate">"La tasa más alta: "</string>
+    <string name="warning_end_date_changed_too">¡La Fecha final también fue modificada!</string>
+    <string name="alert_message">¡No existen datos en cache!</string>
+</resources>

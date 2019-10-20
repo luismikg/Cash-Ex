@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:id="@+id/data_fragmente"
+        android:name="com.experiment.exchangerate.Date.DateView">
+    </fragment>
+
+    <!-- Una pequeña divicion -->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"/>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp" android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:id="@+id/chart_fragmente"
+        android:name="com.experiment.exchangerate.Chart.ChartView">
+    </fragment>
+
+</LinearLayout>
